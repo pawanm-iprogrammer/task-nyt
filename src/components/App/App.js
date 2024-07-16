@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react';
 import { Route } from 'react-router-dom/cjs/react-router-dom.min';
 import Header from '../Header/Header';
 import ArticleList from '../ArticleList/ArticleList';
-import apiCalls from '../../apiCalls';
 import Footer from '../Footer/Footer';
 import ArticleDetail from '../ArticleDetail/ArticleDetail';
 import { getArticleList } from '../../services/homeServices';

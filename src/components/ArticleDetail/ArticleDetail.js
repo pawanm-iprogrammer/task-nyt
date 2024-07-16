@@ -20,9 +20,6 @@ const ArticleDetail = ({ articles, id }) => {
           <p>{selectedArticle?.updated_date}</p>
           <p>{selectedArticle?.section} {selectedArticle?.subsection}</p>
         </div>
-        <div className='img-container'>
-          {/* <img src={multimedia[1].url} alt={multimedia[1].caption} /> */}
-        </div>
       </div>
     </div>
   )
